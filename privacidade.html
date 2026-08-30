@@ -31,6 +31,9 @@
 </style>
 </head>
 <body>
+<div style="position:sticky;top:0;z-index:20;background:rgba(10,8,23,0.85);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:1px solid rgba(217,184,116,0.22);padding:12px 20px;">
+  <a href="./index.html" onclick="if(history.length>1){history.back();return false;}" style="color:#d9b874;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;font-weight:600;font-size:15px;text-decoration:none;">‹ Voltar</a>
+</div>
 <div class="wrap">
   <header>
     <div class="mark">Expansão</div>
@@ -68,6 +71,7 @@
     <li>eventos de cobrança (para auditoria e para liberar/bloquear o acesso).</li>
   </ul>
   <p>Esses dados ficam no RevenueCat e são espelhados no nosso banco de dados, sempre ligados apenas ao identificador pseudônimo — <strong>nunca ao seu nome, e-mail ou dados de cartão</strong>.</p>
+  <p>A sua assinatura fica vinculada à sua conta da <strong>App Store</strong> ou da <strong>Google Play</strong>: é essa conta (administrada pela Apple ou pelo Google, à qual não temos acesso) que identifica você e permite recuperar a compra em outros aparelhos. É por isso que o aplicativo não precisa de login nem do seu e-mail.</p>
 
   <h3>2.3. Texto enviado para gerar afirmações (IA)</h3>
   <p>Quando você usa a funcionalidade premium de afirmações personalizadas, o texto da sua "Minha Visão" é enviado, no momento da geração, ao nosso servidor e ao provedor de inteligência artificial <strong>Anthropic (Claude)</strong>, que devolve as afirmações. Esse texto é usado apenas para gerar as afirmações e <strong>não é armazenado no nosso banco de dados</strong>. A retenção pelo provedor de IA segue a política do próprio provedor.</p>
